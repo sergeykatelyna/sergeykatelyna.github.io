@@ -1,0 +1,20 @@
+form {
+	width: 450px;
+}
+input, textarea, select {
+	display: block;
+}
+img {
+	float: right;
+	height: 140px;
+	width: 120px;
+	object-fit: cover;
+}
+[type="text"] {
+	box-sizing: border-box;
+	width: 300px;
+	height: 40px;
+}
+[type="text"]:not(:last-of-type) {
+	margin-bottom: 10px;
+}
